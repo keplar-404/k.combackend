@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon -r esm server.js"
   },
@@ -15,7 +16,6 @@
     "esm": "^3.2.25",
     "express": "^4.18.2",
     "firebase": "^9.15.0",
-    "mongoose": "^5.13.15",
-    "path": "^0.12.7"
+    "mongoose": "^5.13.15"
   }
 }

@@ -1,6 +1,6 @@
-import AdminModel from "../../models/adminModel/adminModel";
-import CustomerModel from "../../models/customerModel/customerModel";
-import SellerModel from "../../models/sellerModel/sellerModel";
+import AdminModel from "../../models/adminModel/adminModel.js";
+import CustomerModel from "../../models/customerModel/customerModel.js";
+import SellerModel from "../../models/sellerModel/sellerModel.js";
 
 const updateProfile = async (req, res) => {
   const { profilepic, uid } = req.body;

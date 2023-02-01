@@ -1,7 +1,7 @@
-import auth from "../firebase/firebaseConfig";
+import auth from "../firebase/firebaseConfig.js";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import CustomerModel from "../../models/customerModel/customerModel";
-import SellerModel from "../../models/sellerModel/sellerModel";
+import CustomerModel from "../../models/customerModel/customerModel.js";
+import SellerModel from "../../models/sellerModel/sellerModel.js";
 
 const login = async (req, res, next) => {
   const { email, password } = req.body;

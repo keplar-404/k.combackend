@@ -1,6 +1,6 @@
-import auth from "../../firebase/firebaseConfig";
+import auth from "../../firebase/firebaseConfig.js";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
-import SellerModel from "../../../models/sellerModel/sellerModel";
+import SellerModel from "../../../models/sellerModel/sellerModel.js";
 
 const registerSeller = async (req, res, next) => {
   const { email, password, username, shopname } = req.body;

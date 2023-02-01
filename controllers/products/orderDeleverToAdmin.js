@@ -1,7 +1,7 @@
-import OrderModel from "../../models/order";
-import CustomerModel from "../../models/customerModel/customerModel";
-import SellerModel from "../../models/sellerModel/sellerModel";
-import AdminModel from "../../models/adminModel/adminModel";
+import OrderModel from "../../models/order.js";
+import CustomerModel from "../../models/customerModel/customerModel.js";
+import SellerModel from "../../models/sellerModel/sellerModel.js";
+import AdminModel from "../../models/adminModel/adminModel.js";
 const deleverToAdmin = async (req, res) => {
   const { _id, uid } = req.body;
 
