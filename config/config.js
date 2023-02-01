@@ -5,7 +5,7 @@ dotenv.config();
 // const db_local = process.env.DB_LOCAL;
 
 const config = {
-  port: process.env.PORT,
+  port: process.env.PORT || 10000,
   db_local: process.env.DB_LOCAL,
   apiKey: process.env.apiKey,
   authDomain: process.env.authDomain,
