@@ -1,8 +1,8 @@
-import OrderModel from "../../models/order.js";
-import CustomerModel from "../../models/customerModel/customerModel.js";
-import SellerModel from "../../models/sellerModel/sellerModel.js";
-import AdminModel from "../../models/adminModel/adminModel.js";
-import Products from "../../models/productsModel.js";
+import OrderModel from "../../models/order";
+import CustomerModel from "../../models/customerModel/customerModel";
+import SellerModel from "../../models/sellerModel/sellerModel";
+import AdminModel from "../../models/adminModel/adminModel";
+import Products from "../../models/productsModel";
 
 const order = async (req, res) => {
   const {

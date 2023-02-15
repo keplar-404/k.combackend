@@ -1,4 +1,4 @@
-import SellerModel from "../../models/sellerModel/sellerModel.js";
+import SellerModel from "../../models/sellerModel/sellerModel";
 const deleteSeller = async (req, res) => {
   const { username } = req.body;
   try {

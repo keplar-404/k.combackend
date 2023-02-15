@@ -1,4 +1,4 @@
-import CustomerModel from "../../models/customerModel/customerModel.js"
+import CustomerModel from "../../models/customerModel/customerModel"
 const deleteUser = async(req, res)=>{
   const { username }  = req.body
   try {

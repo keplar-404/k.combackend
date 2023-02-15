@@ -1,5 +1,5 @@
-import AdminModel from "../../models/adminModel/adminModel.js";
-import Products from "../../models/productsModel.js";
+import AdminModel from "../../models/adminModel/adminModel";
+import Products from "../../models/productsModel";
 
 const deleteProduct = async (req, res, next) => {
   const { uid, Name, shopname } = req.body;
