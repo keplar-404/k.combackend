@@ -1,6 +1,6 @@
-import CustomerModel from "../../models/customerModel/customerModel.js";
-import SellerModel from "../../models/sellerModel/sellerModel.js";
-import AdminModel from "../../models/adminModel/adminModel.js";
+import CustomerModel from "../../models/customerModel/customerModel";
+import SellerModel from "../../models/sellerModel/sellerModel";
+import AdminModel from "../../models/adminModel/adminModel";
 const getAllUser = async (req, res, next) => {
   try {
     const allCustomer = await CustomerModel.find();

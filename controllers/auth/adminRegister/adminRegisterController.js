@@ -1,6 +1,6 @@
-import auth from "../../firebase/firebaseConfig.js";
+import auth from "../../firebase/firebaseConfig";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
-import AdminModel from "../../../models/adminModel/adminModel.js";
+import AdminModel from "../../../models/adminModel/adminModel";
 
 const registerAdmin = async (req, res, next) => {
   const { email, password, username } = req.body;

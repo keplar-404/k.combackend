@@ -1,6 +1,6 @@
-import AdminModel from "../../models/adminModel/adminModel.js";
-import Products from "../../models/productsModel.js";
-import SellerModel from "../../models/sellerModel/sellerModel.js";
+import AdminModel from "../../models/adminModel/adminModel";
+import Products from "../../models/productsModel";
+import SellerModel from "../../models/sellerModel/sellerModel";
 
 const ratingController = async (req, res) => {
   const { id, rating, shopname } = req.body;

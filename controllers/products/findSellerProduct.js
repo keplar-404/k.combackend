@@ -1,4 +1,4 @@
-import SellerModel from "../../models/sellerModel/sellerModel.js";
+import SellerModel from "../../models/sellerModel/sellerModel";
 
 const findSellerProduct = async (req, res, next) => {
   const { name, uid } = req.body;

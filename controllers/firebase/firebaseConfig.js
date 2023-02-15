@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
-import config from "../../config/config.js";
+import config from "../../config/config";
 const firebaseConfig = config;
 
 const app = initializeApp(firebaseConfig);
