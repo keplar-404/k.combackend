@@ -1,6 +1,6 @@
-import CustomerModel from "../../models/customerModel/customerModel";
-import SellerModel from "../../models/sellerModel/sellerModel";
-import AdminModel from "../../models/adminModel/adminModel";
+import CustomerModel from "../../models/customerModel/customerModel.js";
+import SellerModel from "../../models/sellerModel/sellerModel.js";
+import AdminModel from "../../models/adminModel/adminModel.js";
 
 const getUserController = async (req, res, next) => {
   const { uid } = req.body;

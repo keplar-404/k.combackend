@@ -1,4 +1,4 @@
-import AdminModel from "../../models/adminModel/adminModel";
+import AdminModel from "../../models/adminModel/adminModel.js";
 
 const findAdminProduct = async (req, res, next) => {
   const { name, uid } = req.body;

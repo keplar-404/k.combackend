@@ -1,6 +1,5 @@
 import express, { json } from "express"
-import { home, registerAdmin, registerCustomer, registerSeller,login, logout, products, getuser, deleteUser, updateProfile } from './routes'
-import checkCurrentUser from "./middlewares/checkCurrentUser"
+import { home, registerAdmin, registerCustomer, registerSeller,login, logout, products, getuser, deleteUser, updateProfile } from './routes/index.js'
 import cors from 'cors'
 
 
@@ -19,6 +18,4 @@ app.use('/getuser', getuser)
 app.use('/deleteuser', deleteUser)
 app.use('/updateProfile', updateProfile)
 
-// middleware
-// app.use(checkCurrentUser)
 export default app

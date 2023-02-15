@@ -1,6 +1,6 @@
-import auth from "../../firebase/firebaseConfig";
+import auth from "../../firebase/firebaseConfig.js";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
-import CustomerModel from "../../../models/customerModel/customerModel";
+import CustomerModel from "../../../models/customerModel/customerModel.js";
 
 const registerCustomer = async (req, res, next) => {
   const { email, password, username } = req.body;

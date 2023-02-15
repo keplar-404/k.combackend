@@ -1,6 +1,6 @@
-import Products from "../../models/productsModel";
-import SellerModel from "../../models/sellerModel/sellerModel";
-import AdminModel from "../../models/adminModel/adminModel";
+import Products from "../../models/productsModel.js";
+import SellerModel from "../../models/sellerModel/sellerModel.js";
+import AdminModel from "../../models/adminModel/adminModel.js";
 const addproduct = async (req, res, next) => {
   const {
     name,

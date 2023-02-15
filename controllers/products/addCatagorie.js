@@ -1,4 +1,4 @@
-import Category from "../../models/category";
+import Category from "../../models/category.js";
 const addcategory = async (req, res, next) => {
   const { catagorie } = req.body;
   const exitsCategory = await Category.find({ name: catagorie }).select(

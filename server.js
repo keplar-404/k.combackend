@@ -1,5 +1,5 @@
-import app from "./app";
-import config from "./config/config";
+import app from "./app.js";
+import config from "./config/config.js";
 import mongoose from "mongoose";
 
 const { port, db_local } = config;

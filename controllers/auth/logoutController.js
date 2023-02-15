@@ -1,4 +1,4 @@
-import auth from "../firebase/firebaseConfig";
+import auth from "../firebase/firebaseConfig.js";
 import { signOut } from "firebase/auth";
 const logout = async (req, res, next) => {
   try {
